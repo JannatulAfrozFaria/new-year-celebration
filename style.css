@@ -1,0 +1,130 @@
+body {
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    margin: 0 auto;
+}
+
+.common {
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+.banner {
+    border-radius: 16px;
+    /* adding linear gradient to background image */
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/Banner\ Image.png');
+    background-repeat: none;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 177px 530px 0px 530px;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 20px 344px 177px 344px;
+}
+
+.section-1 {
+    text-align: center;
+    align-items: center;
+    font-family: Inter;
+}
+
+.section-1-title {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.section-1-sub-title {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.section-1-caption {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.image1 {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.section-2 {
+    border-radius: 16px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.section-2-tilte {
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding: 126px 552px 24px 126px;
+    margin-bottom: 0;
+}
+
+.section-2-description {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 497px 0px 126px;
+    margin-bottom: 0;
+}
+
+.primary-button {
+    margin: 48px 0px 142px 158px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+}
+
+.table-image-row {
+    display: inline-block;
+}
+
+.table-image-row img {
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+}
