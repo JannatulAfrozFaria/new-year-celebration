@@ -168,6 +168,7 @@ span {
 
 .p-3a1 {
     margin: 0;
+    margin-top: 100px;
     width: 393px;
 }
 
@@ -179,6 +180,73 @@ span {
     line-height: normal;
     padding: 0;
     margin: 0;
+}
+
+.heading-3a1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+.des-3a1 {
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.p-3a2 {
+    margin-left: 70px;
+}
+
+.image-3a2 {
+    border-radius: 50%;
+    background: #FFF;
+    width: 450px;
+    height: 450px;
+    border: 10px solid red;
+
+}
+
+.image-3a2 img {
+    border-radius: 50%;
+    border: 40px solid white;
+}
+
+.p-3a3 {
+    width: 270px;
+    margin-left: 118.83px;
+    margin-top: 50px;
+}
+
+.title-3a3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.des-3a3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.p-3a3 img {
+    margin-top: 43px;
 }
 
 .primary-button {
