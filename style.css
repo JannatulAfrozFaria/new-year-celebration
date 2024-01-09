@@ -119,12 +119,130 @@ body {
     background: none;
 }
 
+.image-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 1600px;
+    height: 1140px;
+}
+
+.section-4-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.section-4-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.section-4-description {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
 .table-image-row {
-    display: inline-block;
+    display: flex;
 }
 
 .table-image-row img {
     width: 424px;
     height: 450px;
     flex-shrink: 0;
+}
+
+.img-style {
+    margin-right: 24px;
+}
+
+.m1 {
+    margin-bottom: 24px;
+}
+
+.section-5 {
+    margin-top: 0;
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+
+.sec-5-img {
+    margin: 80px 585px 40px 585px;
+}
+
+.sec-5-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sec-5-des {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    padding: 22px 212px 48px 212px;
+}
+
+.inputs {
+    display: flex;
+    margin: 0px 0px 80px 336px;
+    border: none;
+}
+
+.input-1 {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 0;
+    width: 348px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding-left: 30px;
+}
+
+.input-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 336px;
+    width: 210px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    /* padding: 26px 56px 26px 56px; */
 }
