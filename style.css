@@ -117,6 +117,13 @@ body {
     line-height: normal;
     text-transform: uppercase;
     background: none;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.primary-button:hover{
+    color: black;
+    background: #FFF;
+    border: 1px solid transparent;
 }
 
 .image-section {
@@ -227,6 +234,7 @@ body {
     width: 348px;
     height: 72px;
     flex-shrink: 0;
+    border: 1px solid transparent;
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     padding-left: 30px;
@@ -242,9 +250,17 @@ body {
     width: 210px;
     height: 78px;
     flex-shrink: 0;
+    border: 1px solid transparent;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+    cursor: pointer;
+    transition: 0.8s;
     /* padding: 26px 56px 26px 56px; */
+}
+.input-2:hover{
+    color:#F00;
+    background: black;
+
 }
 
 .footer {
