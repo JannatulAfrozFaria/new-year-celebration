@@ -106,6 +106,81 @@ body {
     margin-bottom: 0;
 }
 
+.section-3 {
+    text-align: center;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.sec-3-caption {
+    margin-top: 120px;
+    padding: 100px 380px 48px 380px;
+}
+
+.writing {
+    margin: 0;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+span {
+    color: #F00;
+    margin-right: 10px;
+}
+
+.btn-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 24px;
+    width: 167px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: #F00;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.btn-1:hover {
+    color: #F00;
+    background: #FFF;
+    border: 2px solid #F00;
+}
+
+.c {
+    width: 1600px;
+}
+
+.sec-3a {
+    display: flex;
+    margin-top: 120px;
+    width: 1600px;
+}
+
+.p-3a1 {
+    margin: 0;
+    width: 393px;
+}
+
+.title-3a1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
+
 .primary-button {
     margin: 48px 0px 142px 158px;
     color: #FFF;
@@ -120,7 +195,8 @@ body {
     cursor: pointer;
     transition: 0.8s;
 }
-.primary-button:hover{
+
+.primary-button:hover {
     color: black;
     background: #FFF;
     border: 1px solid transparent;
@@ -257,8 +333,9 @@ body {
     transition: 0.8s;
     /* padding: 26px 56px 26px 56px; */
 }
-.input-2:hover{
-    color:#F00;
+
+.input-2:hover {
+    color: #F00;
     background: black;
 
 }
@@ -282,6 +359,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .address {
     width: 375px;
 }
@@ -292,15 +370,17 @@ body {
     background: rgba(255, 255, 255, 0.15);
 }
 
-.lower-part-1{
+.lower-part-1 {
     text-align: center;
 }
-.footer-image{
+
+.footer-image {
     margin-top: 50px;
     margin-right: 24px;
     margin-bottom: 48px;
 }
-.lower-part-2{
+
+.lower-part-2 {
     margin: 50px 140px 120px 140px;
     color: #FFF;
     font-family: Inter;
